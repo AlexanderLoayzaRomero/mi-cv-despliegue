@@ -57,7 +57,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 4. AJUSTE DE PUERTO PARA RENDER (USA EL PUERTO QUE ELLOS TE DEN O EL 3000)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 server.listen(PORT, () => {
     console.log(`Servidor en funcionamiento en el puerto: ${PORT}`);
